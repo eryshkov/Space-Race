@@ -14,6 +14,8 @@
 		5C626C8B21D0E39100E2A042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C626C8921D0E39100E2A042 /* Main.storyboard */; };
 		5C626C8D21D0E39600E2A042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C626C8C21D0E39600E2A042 /* Assets.xcassets */; };
 		5C626C9021D0E39600E2A042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C626C8E21D0E39600E2A042 /* LaunchScreen.storyboard */; };
+		5C626C9921D1599800E2A042 /* explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C626C9721D1599800E2A042 /* explosion.sks */; };
+		5C626C9A21D1599800E2A042 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5C626C9821D1599800E2A042 /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5C626C8C21D0E39600E2A042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C626C8F21D0E39600E2A042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C626C9121D0E39600E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C626C9721D1599800E2A042 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
+		5C626C9821D1599800E2A042 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				5C626C7F21D0E39100E2A042 /* AppDelegate.swift */,
 				5C626C8121D0E39100E2A042 /* GameScene.sks */,
+				5C626C9721D1599800E2A042 /* explosion.sks */,
+				5C626C9821D1599800E2A042 /* Starfield.sks */,
 				5C626C8521D0E39100E2A042 /* GameScene.swift */,
 				5C626C8721D0E39100E2A042 /* GameViewController.swift */,
 				5C626C8921D0E39100E2A042 /* Main.storyboard */,
@@ -128,9 +134,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C626C9A21D1599800E2A042 /* Starfield.sks in Resources */,
 				5C626C8B21D0E39100E2A042 /* Main.storyboard in Resources */,
 				5C626C8221D0E39100E2A042 /* GameScene.sks in Resources */,
 				5C626C8D21D0E39600E2A042 /* Assets.xcassets in Resources */,
+				5C626C9921D1599800E2A042 /* explosion.sks in Resources */,
 				5C626C9021D0E39600E2A042 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

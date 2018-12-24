@@ -11,11 +11,24 @@ import GameplayKit
 
 class GameScene: SKScene {
     
-    private var label : SKLabelNode?
-    private var spinnyNode : SKShapeNode?
+    var starfield: SKEmitterNode!
+    var player: SKSpriteNode!
+    
+    var scoreLabel: SKLabelNode!
+    var score = 0 {
+        didSet {
+            scoreLabel.text = "Score: \(score)"
+        }
+    }
     
     override func didMove(to view: SKView) {
+        backgroundColor = UIColor.black
         
+        starfield = SKEmitterNode(fileNamed: "Starfield")!
+        starfield.position = CGPoint(x: 1024, y: 384)
+        starfield.advanceSimulationTime(10)
+        addChild(starfield)
+        starfield.zPosition = -1
         
     }
     
