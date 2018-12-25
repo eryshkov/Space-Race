@@ -30,6 +30,8 @@
 		5C626C9121D0E39600E2A042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C626C9721D1599800E2A042 /* explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explosion.sks; sourceTree = "<group>"; };
 		5C626C9821D1599800E2A042 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		5C626C9B21D2A26300E2A042 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C626C9D21D2A3FD00E2A042 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,8 @@
 		5C626C7321D0E39100E2A042 = {
 			isa = PBXGroup;
 			children = (
+				5C626C9C21D2A36A00E2A042 /* screens */,
+				5C626C9B21D2A26300E2A042 /* README.md */,
 				5C626C7E21D0E39100E2A042 /* Space Race */,
 				5C626C7D21D0E39100E2A042 /* Products */,
 			);
@@ -74,6 +78,14 @@
 				5C626C9121D0E39600E2A042 /* Info.plist */,
 			);
 			path = "Space Race";
+			sourceTree = "<group>";
+		};
+		5C626C9C21D2A36A00E2A042 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C626C9D21D2A3FD00E2A042 /* 1.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
