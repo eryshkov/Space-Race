@@ -18,7 +18,6 @@
 * uses `contactTestBitMask`& `categoryBitMask`
 * collision detection
 * uses dynamic background
-* 
 
 ## License
 
